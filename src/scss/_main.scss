@@ -1,0 +1,35 @@
+.main{
+	
+	h2{
+
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	.carousselimg{
+
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		margin-top: 12px;
+
+		img{
+
+			margin-left: 15px;
+
+			&:first-child{
+
+				margin-left: 0;	
+			}
+
+			&:hover{
+				
+				cursor: pointer;
+				-webkit-box-shadow: 0px 0px 44px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 0px 44px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 0px 44px 0px rgba(0,0,0,0.75);
+			}
+		}
+	}
+}

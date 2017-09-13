@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto+Condensed');
+@import '_header';
+@import '_nav';
+@import '_slide';
+@import '_main';
+@import '_footer';
+
 
 *{
 	margin: 0;
@@ -16,52 +22,13 @@ body{
 	max-width: 100%;
 }
 
-.header{
+.content{
 	
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-self: center;
-	font-size: .8rem;
-	font-weight: bold;
-
-	color: #fff;
-	background-color: #000;
-	
-	.logo{
-
-		font-family: 'Pacifico', cursive;
-	}
+	width: 85%;
+	margin: 0 auto;
 }
 
-.nav-menu{
-	
-	display: flex;
 
-	list-style-type: none;
-	
-	.nav-list{
-		
-		padding: 0.9em;
-		
-		&:hover{
-			
-			background-color: #2980b9;
-		}
 
-		.nav-link{
-			
-			text-transform: uppercase;
-			text-decoration: none;
-			color: #fff;
-		}
-	}
-}
 
-.slide{
-	height: 40vh;
-	display: flex;
-	align-items: center;
 
-	background-color: #2980b9;
-}

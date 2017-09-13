@@ -1,0 +1,23 @@
+.nav-menu{
+	
+	display: flex;
+
+	list-style-type: none;
+	
+	.nav-list{
+		
+		padding: 0.9em;
+		
+		&:hover{
+			
+			background-color: #2980b9;
+		}
+
+		.nav-link{
+			
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}

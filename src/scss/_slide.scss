@@ -1,0 +1,37 @@
+.slide{
+
+	background-color: #2980b9;
+
+	.content{
+
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
+
+.slidecall{
+	color: #fff;
+
+	.btn{
+		cursor: pointer;
+		padding: .8em;
+		border: 0;
+		border-radius: 5px;
+		font-weight: bold;
+		margin-top: 12px;
+
+		background-color: #f1c40f;
+		
+		&:hover{
+
+			background-color: #f39c12;
+		}
+	}
+}
+
+.slidephoto{
+	display: flex;
+	align-items: flex-end;
+
+}
